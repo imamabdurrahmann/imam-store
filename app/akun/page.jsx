@@ -12,7 +12,7 @@ export default function AkunPage() {
       <div className="page-hero page-hero--purple">
         <div className="wrap">
           <div className="page-hero-inner">
-            <div className="eyebrow">🛡️ Dicek Manual & Bergaransi</div>
+            <div className="eyebrow">Dicek Manual & Bergaransi</div>
             <h1>Akun Game</h1>
             <p>Akun gaming ready pakai semua server. Sudah dicek manual, bergaransi, bisa request akun custom.</p>
           </div>

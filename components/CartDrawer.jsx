@@ -30,7 +30,7 @@ export default function CartDrawer() {
     cart.forEach((item, index) => {
       msg += `${index + 1}. ${item.title} — ${rp(item.price)}\n`;
     });
-    msg += `\nTotal: ${rp(total)}\n\nMohon diproses ya, makasih! 🙏`;
+    msg += `\nTotal: ${rp(total)}\n\nMohon diproses ya, makasih!`;
     const waLink = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`;
     window.open(waLink, "_blank");
   };

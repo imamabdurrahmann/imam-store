@@ -290,25 +290,25 @@ export default function Navbar() {
             <div className="mmd-section">
               <h4>Kategori Game</h4>
               <Link href="/joki" className="mmd-link" onClick={() => setIsMenuOpen(false)}>
-                🏆 Joki Rank Game
+                Joki Rank Game
               </Link>
               <Link href="/giftcard" className="mmd-link" onClick={() => setIsMenuOpen(false)}>
-                🎁 Voucher & Gift Card
+                Voucher & Gift Card
               </Link>
             </div>
             <div className="mmd-section">
               <h4>Layanan & Bantuan</h4>
               <a href="#" className="mmd-link" onClick={() => setIsMenuOpen(false)}>
-                📖 Cara Melakukan Order
+                Cara Melakukan Order
               </a>
               <a href="#" className="mmd-link" onClick={() => setIsMenuOpen(false)}>
-                🛡️ Sistem Garansi & Keamanan
+                Sistem Garansi & Keamanan
               </a>
               <a href="#" className="mmd-link" onClick={() => setIsMenuOpen(false)}>
-                💬 Hubungi Layanan Pelanggan
+                Hubungi Layanan Pelanggan
               </a>
               <a href="#" className="mmd-link" onClick={() => setIsMenuOpen(false)}>
-                ❓ FAQ / Pertanyaan Umum
+                FAQ / Pertanyaan Umum
               </a>
             </div>
           </div>

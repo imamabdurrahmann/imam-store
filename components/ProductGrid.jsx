@@ -24,7 +24,7 @@ export default function ProductGrid({ category = "all" }) {
   if (list.length === 0) {
     return (
       <div className="empty-state" style={{ width: "100%", gridColumn: "1 / -1", textAlign: "center", padding: "40px 0" }}>
-        <p>Produk "{searchQuery}" tidak ditemukan 😅</p>
+        <p>Produk "{searchQuery}" tidak ditemukan</p>
       </div>
     );
   }

@@ -12,7 +12,7 @@ export default function TopupPage() {
       <div className="page-hero page-hero--teal">
         <div className="wrap">
           <div className="page-hero-inner">
-            <div className="eyebrow">⚡ Proses Instan 24 Jam</div>
+            <div className="eyebrow">Proses Instan 24 Jam</div>
             <h1>Top Up Game</h1>
             <p>Diamond, UC, Genesis Crystal, VP, Robux, dan semua currency game ada di sini. Harga termurah, proses kilat.</p>
           </div>

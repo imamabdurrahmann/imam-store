@@ -12,7 +12,7 @@ export default function GiftcardPage() {
       <div className="page-hero page-hero--green">
         <div className="wrap">
           <div className="page-hero-inner">
-            <div className="eyebrow">🎁 Langsung Aktif</div>
+            <div className="eyebrow">Langsung Aktif</div>
             <h1>Gift Card & Voucher</h1>
             <p>Google Play, Steam Wallet, Garena, Nintendo eShop, dan banyak lagi. Kode dikirim instan ke WhatsApp.</p>
           </div>

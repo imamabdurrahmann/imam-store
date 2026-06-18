@@ -12,7 +12,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  const waMessage = encodeURIComponent(`Halo ${STORE_NAME}! Saya mau nanya-nanya dulu 🙏`);
+  const waMessage = encodeURIComponent(`Halo ${STORE_NAME}! Saya mau nanya-nanya dulu`);
   const waFloatLink = `https://wa.me/${WA_NUMBER}?text=${waMessage}`;
 
   return (

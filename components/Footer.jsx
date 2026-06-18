@@ -56,7 +56,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="foot-bottom">
-          <span>© 2026 IMAM STORE. Dibuat dengan ❤️ untuk para gamers.</span>
+          <span>© 2026 IMAM STORE. Dibuat untuk para gamers.</span>
           <div className="pay-icons">
             <span className="pay-chip">DANA</span>
             <span className="pay-chip">OVO</span>

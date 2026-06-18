@@ -5,7 +5,7 @@ import Link from "next/link";
 const slidesData = [
   {
     class: "slide-1",
-    eyebrow: "⚡ Proses Instan 24 Jam",
+    eyebrow: "Proses Instan 24 Jam",
     title: "Top Up Game Termurah & Anti Ribet",
     desc: "Diamond, UC, Genesis Crystal sampai akun sultan. Bayar gampang, masuk langsung.",
     ctaText: "Mulai Top Up →",
@@ -13,7 +13,7 @@ const slidesData = [
   },
   {
     class: "slide-2",
-    eyebrow: "🔥 Promo Spesial Member",
+    eyebrow: "Promo Spesial Member",
     title: "Diskon Hingga 30% Tiap Hari",
     desc: "Cek Flash Sale tiap jam. Harga lebih murah dari toko sebelah, dijamin.",
     ctaText: "Lihat Flash Sale →",
@@ -21,7 +21,7 @@ const slidesData = [
   },
   {
     class: "slide-3",
-    eyebrow: "🛡️ 100% Aman & Garansi",
+    eyebrow: "100% Aman & Garansi",
     title: "Beli Akun Game Bergaransi",
     desc: "Semua akun dicek manual. Ada garansi balik modal kalau bermasalah.",
     ctaText: "Cari Akun →",

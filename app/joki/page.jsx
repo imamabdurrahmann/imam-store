@@ -12,7 +12,7 @@ export default function JokiPage() {
       <div className="page-hero page-hero--orange">
         <div className="wrap">
           <div className="page-hero-inner">
-            <div className="eyebrow">🏆 Pro Player Berpengalaman</div>
+            <div className="eyebrow">Pro Player Berpengalaman</div>
             <h1>Joki Rank</h1>
             <p>Naik rank bareng pro player. Aman, cepat, dan tidak menyebabkan ban. Bisa request jadwal.</p>
           </div>

@@ -27,7 +27,7 @@ export default function FlashSale({ isBig = false }) {
       <div className="page-hero page-hero--sale">
         <div className="wrap">
           <div className="page-hero-inner">
-            <div className="eyebrow">⚡ Penawaran Terbatas</div>
+            <div className="eyebrow">Penawaran Terbatas</div>
             <h1>Flash Sale Hari Ini</h1>
             <p>Harga dicoret habis-habisan. Stok terbatas, rebutan sekarang sebelum kehabisan!</p>
             <div className="countdown-big">
