@@ -1,0 +1,14 @@
+imam-store
+├── app/                    ← routing (satu folder = satu URL)
+│   ├── layout.jsx          ← shell global (header, footer, drawer)
+│   ├── page.jsx            ← homepage /
+│   ├── topup/page.jsx      ← /topup
+│   ├── akun/page.jsx       ← /akun
+│   ├── joki/page.jsx       ← /joki
+│   ├── giftcard/page.jsx   ← /giftcard
+│   ├── flashsale/page.jsx  ← /flashsale
+│   └── globals.css
+├── components/             ← React components
+├── context/                ← Cart + Search state
+├── data/                   ← products.js, games.js
+└── lib/utils.js            ← WA_NUMBER, rp(), dll

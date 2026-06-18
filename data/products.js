@@ -1,0 +1,18 @@
+export const products = [
+  {id:1,  title:"86 Diamond Mobile Legends",      game:"Mobile Legends",  cat:"topup",    price:21000,    old:25000,    rating:4.9, sold:"12rb",  emoji:"💎", grad:"linear-gradient(135deg,#1a4d8f,#3a8de0)",  flash:true},
+  {id:2,  title:"100 UC PUBG Mobile",             game:"PUBG Mobile",     cat:"topup",    price:23500,    old:28000,    rating:4.8, sold:"8,4rb", emoji:"🔫", grad:"linear-gradient(135deg,#b8861f,#f0c040)",  flash:true},
+  {id:3,  title:"70 Diamonds Free Fire",          game:"Free Fire",       cat:"topup",    price:9500,     old:11000,    rating:4.9, sold:"21rb",  emoji:"🔥", grad:"linear-gradient(135deg,#c0341f,#ff6b35)",  flash:true},
+  {id:4,  title:"Genesis Crystal x60 Genshin",   game:"Genshin Impact",  cat:"topup",    price:15000,    old:18000,    rating:5.0, sold:"5,1rb", emoji:"⚜️", grad:"linear-gradient(135deg,#3d2a6b,#7a5cc0)",  flash:true},
+  {id:5,  title:"475 VP Valorant",                game:"Valorant",        cat:"topup",    price:48000,    old:55000,    rating:4.9, sold:"3,2rb", emoji:"🎯", grad:"linear-gradient(135deg,#a01f2e,#ff4655)",  flash:true},
+  {id:6,  title:"800 Robux Roblox",              game:"Roblox",          cat:"topup",    price:95000,    old:110000,   rating:4.8, sold:"6,7rb", emoji:"🧱", grad:"linear-gradient(135deg,#2a2a2a,#5a5a5a)",  flash:false},
+  {id:7,  title:"Akun ML Mythic 500★ Skin Full", game:"Mobile Legends",  cat:"akun",     price:850000,   old:1200000,  rating:5.0, sold:"42",    emoji:"👑", grad:"linear-gradient(135deg,#1a4d8f,#3a8de0)",  flash:false},
+  {id:8,  title:"Akun Genshin AR58 5 Bintang",   game:"Genshin Impact",  cat:"akun",     price:1450000,  old:0,        rating:4.9, sold:"18",    emoji:"⚜️", grad:"linear-gradient(135deg,#3d2a6b,#7a5cc0)",  flash:false},
+  {id:9,  title:"Akun FF Sultan Bundle Rare",    game:"Free Fire",       cat:"akun",     price:650000,   old:900000,   rating:4.8, sold:"31",    emoji:"🔥", grad:"linear-gradient(135deg,#c0341f,#ff6b35)",  flash:false},
+  {id:10, title:"Akun Valorant Radiant + Skin",  game:"Valorant",        cat:"akun",     price:2100000,  old:0,        rating:5.0, sold:"7",     emoji:"🎯", grad:"linear-gradient(135deg,#a01f2e,#ff4655)",  flash:false},
+  {id:11, title:"Joki Rank ML ke Mythic",        game:"Mobile Legends",  cat:"joki",     price:120000,   old:150000,   rating:4.9, sold:"340",   emoji:"🏆", grad:"linear-gradient(135deg,#0a6b5f,#12b5a5)",  flash:false},
+  {id:12, title:"Joki Rank Valorant ke Immortal",game:"Valorant",        cat:"joki",     price:280000,   old:0,        rating:5.0, sold:"95",    emoji:"🏆", grad:"linear-gradient(135deg,#0a6b5f,#12b5a5)",  flash:false},
+  {id:13, title:"Joki Spiral Abyss Genshin 36★", game:"Genshin Impact",  cat:"joki",     price:75000,    old:90000,    rating:4.9, sold:"210",   emoji:"🏆", grad:"linear-gradient(135deg,#0a6b5f,#12b5a5)",  flash:false},
+  {id:14, title:"Google Play Gift Card Rp50.000",game:"Google Play",     cat:"giftcard", price:48000,    old:0,        rating:5.0, sold:"1,9rb", emoji:"🎁", grad:"linear-gradient(135deg,#2e7d32,#66bb6a)",  flash:false},
+  {id:15, title:"Steam Wallet Rp60.000",         game:"Steam",           cat:"giftcard", price:57000,    old:62000,    rating:4.9, sold:"880",   emoji:"🎮", grad:"linear-gradient(135deg,#1b2838,#2a475e)",  flash:false},
+  {id:16, title:"Voucher Garena Rp100.000",      game:"Garena",          cat:"giftcard", price:95000,    old:0,        rating:4.8, sold:"1,2rb", emoji:"🎟️", grad:"linear-gradient(135deg,#7a1f1f,#d63031)",  flash:false},
+];
