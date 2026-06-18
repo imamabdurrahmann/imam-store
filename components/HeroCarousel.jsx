@@ -34,6 +34,10 @@ export default function HeroCarousel() {
   const count = slidesData.length;
   const autoPlayRef = useRef();
 
+  const [touchStart, setTouchStart] = useState(null);
+  const [touchEnd, setTouchEnd] = useState(null);
+  const minSwipeDistance = 50;
+
   const go = (i) => {
     setCur((i + count) % count);
   };
@@ -63,13 +67,43 @@ export default function HeroCarousel() {
     };
   }, [cur]);
 
+  const handleTouchStart = (e) => {
+    setTouchEnd(null);
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const handleTouchMove = (e) => {
+    setTouchEnd(e.targetTouches[0].clientX);
+  };
+
+  const handleTouchEnd = () => {
+    if (!touchStart || !touchEnd) return;
+    const distance = touchStart - touchEnd;
+    const isLeftSwipe = distance > minSwipeDistance;
+    const isRightSwipe = distance < -minSwipeDistance;
+    if (isLeftSwipe) {
+      go(cur + 1);
+      resetAutoPlay();
+    } else if (isRightSwipe) {
+      go(cur - 1);
+      resetAutoPlay();
+    }
+  };
+
   return (
     <div className="hero">
       <div className="wrap">
         <div className="carousel">
           <div
             className="slides"
-            style={{ transform: `translateX(-${cur * 100}%)`, display: "flex", transition: "transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)" }}
+            style={{
+              transform: `translateX(-${cur * 100}%)`,
+              display: "flex",
+              transition: "transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
+            }}
+            onTouchStart={handleTouchStart}
+            onTouchMove={handleTouchMove}
+            onTouchEnd={handleTouchEnd}
           >
             {slidesData.map((slide, idx) => (
               <div key={idx} className={`slide ${slide.class}`}>
