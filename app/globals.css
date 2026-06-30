@@ -2,7 +2,7 @@
 
 /* ============ IMAM STORE — Design System ============ */
 :root {
-  --teal-500: #e2b761; --teal-600: #ca9e4b; --teal-900: #423519; --teal-tint: rgba(226, 183, 97, 0.08);
+  --teal-500: #f2e8cf; --teal-600: #e5dcc6; --teal-900: #3c372a; --teal-tint: rgba(242, 232, 207, 0.08);
   --bg: #090a0f; --surface: #11141b;
   --ink: #f3f4f6; --ink-soft: #cbd5e1; --ink-muted: #64748b; --line: #1e293b;
   --sale: #ff4757; --sale-soft: rgba(255, 71, 87, 0.1); --star: #fbbf24;
@@ -39,7 +39,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none }
 header.site { position: sticky; top: 0; z-index: 50; background: var(--surface); box-shadow: var(--shadow-sm) }
 .topbar { display: flex; align-items: center; gap: 16px; padding: 12px 0 }
 .brand { display: flex; align-items: center; gap: 9px; flex-shrink: 0 }
-.brand-mark { width: 38px; height: 38px; border-radius: 11px; flex-shrink: 0; background: linear-gradient(135deg,var(--teal-500),var(--teal-900)); display: grid; place-items: center; box-shadow: 0 4px 12px rgba(18,181,165,.35) }
+.brand-mark { width: 38px; height: 38px; border-radius: 11px; flex-shrink: 0; background: linear-gradient(135deg,var(--teal-500),var(--teal-900)); display: grid; place-items: center; box-shadow: 0 4px 12px rgba(242, 232, 207, 0.15) }
 .brand-mark svg { width: 22px; height: 22px }
 .brand-name { font-weight: 800; font-size: 19px; letter-spacing: -.4px; line-height: 1 }
 .brand-name span { color: var(--teal-500) }
@@ -56,14 +56,14 @@ header.site { position: sticky; top: 0; z-index: 50; background: var(--surface);
 .icon-btn:hover { background: var(--bg) }
 .icon-btn svg { width: 21px; height: 21px }
 .cart-badge { position: absolute; top: 5px; right: 5px; min-width: 17px; height: 17px; padding: 0 4px; border-radius: 9px; background: var(--sale); color: #fff; font-size: 10px; font-weight: 700; display: grid; place-items: center; line-height: 1 }
-.btn-login { height: 42px; padding: 0 18px; border-radius: 11px; font-weight: 700; font-size: 13.5px; background: var(--teal-500); color: #fff; display: flex; align-items: center; transition: background .15s }
+.btn-login { height: 42px; padding: 0 18px; border-radius: 11px; font-weight: 700; font-size: 13.5px; background: var(--teal-500); color: #11141b; display: flex; align-items: center; transition: background .15s }
 .btn-login:hover { background: var(--teal-600) }
 .cat-strip { border-top: 1px solid var(--line); overflow-x: auto; scrollbar-width: none }
 .cat-strip::-webkit-scrollbar { display: none }
 .cat-strip-inner { display: flex; gap: 4px; padding: 6px 0 }
 .cat-link { display: flex; align-items: center; gap: 6px; padding: 8px 12px; border-radius: 9px; white-space: nowrap; font-size: 13px; font-weight: 600; color: var(--ink-soft); transition: background .15s, color .15s }
 .cat-link:hover { background: var(--teal-tint); color: var(--teal-600) }
-.cat-link.active { background: var(--teal-500); color: #fff }
+.cat-link.active { background: var(--teal-500); color: #11141b }
 .cat-link svg { width: 16px; height: 16px }
 
 /* ===== HERO CAROUSEL ===== */
@@ -71,15 +71,15 @@ header.site { position: sticky; top: 0; z-index: 50; background: var(--surface);
 .carousel { position: relative; border-radius: var(--r-lg); overflow: hidden; box-shadow: var(--shadow-md) }
 .slides { display: flex; transition: transform .5s cubic-bezier(.4,0,.2,1) }
 .slide { min-width: 100%; height: 260px; padding: 40px 80px; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; color: #fff }
-.slide-1 { background: linear-gradient(135deg, #181d28, #0b0c10); border: 1px solid rgba(226, 183, 97, 0.15) }
-.slide-2 { background: linear-gradient(135deg, #1d1828, #0b0c10); border: 1px solid rgba(226, 183, 97, 0.15) }
-.slide-3 { background: linear-gradient(135deg, #241818, #0b0c10); border: 1px solid rgba(226, 183, 97, 0.15) }
+.slide-1 { background: linear-gradient(135deg, #181d28, #0b0c10); border: 1px solid rgba(242, 232, 207, 0.12) }
+.slide-2 { background: linear-gradient(135deg, #1d1828, #0b0c10); border: 1px solid rgba(242, 232, 207, 0.12) }
+.slide-3 { background: linear-gradient(135deg, #241818, #0b0c10); border: 1px solid rgba(242, 232, 207, 0.12) }
 .slide::after { content:""; position: absolute; right: -40px; top: 50%; transform: translateY(-50%); width: 260px; height: 260px; border-radius: 50%; background: rgba(255,255,255,.08) }
 .slide::before { content:""; position: absolute; right: 60px; bottom: -60px; width: 180px; height: 180px; border-radius: 50%; background: rgba(255,255,255,.06) }
 .slide-eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; opacity: .85; margin-bottom: 10px }
 .slide h2 { font-size: 32px; font-weight: 800; letter-spacing: -.8px; line-height: 1.1; max-width: 62%; margin-bottom: 10px }
 .slide p { font-size: 14px; opacity: .9; max-width: 55%; margin-bottom: 20px }
-.slide-cta { align-self: flex-start; background: #fff; color: var(--ink); font-weight: 700; font-size: 13.5px; padding: 11px 22px; border-radius: 11px; transition: transform .15s }
+.slide-cta { align-self: flex-start; background: var(--teal-500); color: #11141b; font-weight: 700; font-size: 13.5px; padding: 11px 22px; border-radius: 11px; transition: transform .15s }
 .slide-cta:hover { transform: translateY(-2px) }
 .dots { position: absolute; bottom: 16px; left: 80px; display: flex; gap: 7px; z-index: 2 }
 .dot { width: 8px; height: 8px; border-radius: 5px; background: rgba(255,255,255,.45); transition: all .25s; border: none; cursor: pointer }
@@ -95,10 +95,10 @@ header.site { position: sticky; top: 0; z-index: 50; background: var(--surface);
 .page-hero .eyebrow { font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 8px; opacity: .8 }
 .page-hero h1 { font-size: 28px; font-weight: 800; letter-spacing: -.6px; line-height: 1.15; margin-bottom: 6px }
 .page-hero p { font-size: 14px; opacity: .85; max-width: 500px }
-.page-hero--teal { background: linear-gradient(135deg, #11141b, #07090e); border-bottom: 1px solid rgba(226, 183, 97, 0.12); color: #fff }
-.page-hero--purple { background: linear-gradient(135deg, #15111b, #07090e); border-bottom: 1px solid rgba(226, 183, 97, 0.12); color: #fff }
-.page-hero--orange { background: linear-gradient(135deg, #1a1210, #07090e); border-bottom: 1px solid rgba(226, 183, 97, 0.12); color: #fff }
-.page-hero--green { background: linear-gradient(135deg, #0d1510, #07090e); border-bottom: 1px solid rgba(226, 183, 97, 0.12); color: #fff }
+.page-hero--teal { background: linear-gradient(135deg, #11141b, #07090e); border-bottom: 1px solid rgba(242, 232, 207, 0.12); color: #fff }
+.page-hero--purple { background: linear-gradient(135deg, #15111b, #07090e); border-bottom: 1px solid rgba(242, 232, 207, 0.12); color: #fff }
+.page-hero--orange { background: linear-gradient(135deg, #1a1210, #07090e); border-bottom: 1px solid rgba(242, 232, 207, 0.12); color: #fff }
+.page-hero--green { background: linear-gradient(135deg, #0d1510, #07090e); border-bottom: 1px solid rgba(242, 232, 207, 0.12); color: #fff }
 .page-hero--sale { background: linear-gradient(135deg, #1a0f0d, #07090e); border-bottom: 1px solid rgba(255, 71, 87, 0.15); color: #fff }
 
 /* ===== FLASH SALE SECTION ===== */
