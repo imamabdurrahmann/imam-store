@@ -15,7 +15,7 @@ export default function GameGrid() {
           {games.map((g, idx) => (
             <Link key={idx} className="game-tile" href="/topup">
               <div className="game-art" style={{ background: g.grad }}>
-                {g.emoji}
+                <span>{g.emoji}</span>
               </div>
               <div className="game-name">{g.name}</div>
             </Link>
