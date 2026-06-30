@@ -50,7 +50,7 @@ header.site { position: sticky; top: 0; z-index: 50; background: var(--surface);
 .searchbar input::placeholder { color: var(--ink-muted) }
 .searchbar .s-btn { position: absolute; right: 6px; top: 6px; height: 32px; width: 34px; border-radius: 9px; background: var(--teal-500); display: grid; place-items: center; transition: background .15s }
 .searchbar .s-btn:hover { background: var(--teal-600) }
-.searchbar .s-btn svg { width: 17px; height: 17px; stroke: #fff }
+.searchbar .s-btn svg { width: 17px; height: 17px; stroke: #11141b }
 .top-actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0 }
 .icon-btn { position: relative; width: 42px; height: 42px; border-radius: 11px; display: grid; place-items: center; color: var(--ink-soft); transition: background .15s }
 .icon-btn:hover { background: var(--bg) }
@@ -173,7 +173,7 @@ section.block { padding: 14px 0 }
 .trust-item p { font-size: 12px; color: var(--ink-muted); font-weight: 500; line-height: 1.4 }
 
 /* ===== FOOTER ===== */
-footer.site { background: var(--ink); color: #fff; margin-top: 30px; padding: 42px 0 24px }
+footer.site { background: #0c0d12; color: #fff; margin-top: 30px; padding: 42px 0 24px; border-top: 1px solid var(--line) }
 .foot-grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 30px; margin-bottom: 30px }
 .foot-brand .brand-name { color: #fff; font-size: 21px }
 .foot-brand p { font-size: 13px; color: #9aa1ad; margin-top: 12px; max-width: 280px; line-height: 1.6 }
@@ -224,7 +224,7 @@ footer.site { background: var(--ink); color: #fff; margin-top: 30px; padding: 42
 .checkout-wa svg { width: 21px; height: 21px; fill: #fff }
 
 /* ===== TOAST ===== */
-.toast { position: fixed; bottom: 90px; left: 50%; transform: translateX(-50%) translateY(20px); z-index: 100; background: var(--ink); color: #fff; font-weight: 600; font-size: 13.5px; padding: 12px 20px; border-radius: 12px; box-shadow: var(--shadow-lg); opacity: 0; visibility: hidden; transition: .25s; display: flex; align-items: center; gap: 8px; white-space: nowrap }
+.toast { position: fixed; bottom: 90px; left: 50%; transform: translateX(-50%) translateY(20px); z-index: 100; background: #161920; color: #fff; border: 1px solid var(--line); font-weight: 600; font-size: 13.5px; padding: 12px 20px; border-radius: 12px; box-shadow: var(--shadow-lg); opacity: 0; visibility: hidden; transition: .25s; display: flex; align-items: center; gap: 8px; white-space: nowrap }
 .toast.show { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0) }
 .toast svg { width: 18px; height: 18px; color: var(--teal-500) }
 
